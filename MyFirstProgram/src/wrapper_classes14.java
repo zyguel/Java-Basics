@@ -11,7 +11,7 @@ public class wrapper_classes14 {
 	//		reference data types contain useful methods
 	//		can be used with collections (ex. ArrayList);
 	
-	
+		System.out.println("Hello World");
 	}
 
 }
