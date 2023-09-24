@@ -11,6 +11,30 @@ public class wrapper_classes14 {
 	//		reference data types contain useful methods
 	//		can be used with collections (ex. ArrayList);
 	
+		
+	/*
+	 * Primitive		wrapper 
+	 * 
+	 * boolean			Boolean
+	 * char 			Character
+	 * int 				Integer
+	 * double			Double
+	 */
+		
+		//autoboxing = the automatic conversion that the Java compiler makes between the primitive datatype and their correpsonding wrapper class
+		
+		//unboxing = the reverse of autoboxing. Automatic conversion of wrapper class to primitive
+		Boolean a = true;
+		Character b = '@';
+		Integer c = 123;
+		Double d = 3.14;
+		String e = "Zyguel"; // already a reference data types
+		
+		if(b == '@') {
+			System.out.println("This is true!");
+		}
+		
+		
 		System.out.println("Hello World");
 	}
 
